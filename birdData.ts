@@ -14,7 +14,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/303894301-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/303894361-1280px.jpg'
     ],
-    distractorPool: ['California Towhee', 'Northern Mockingbird', "Say's Phoebe", 'House Finch', 'House Sparrow', 'Song Sparrow', 'Mourning Dove', 'California Scrub-Jay', 'Greater Roadrunner', 'Northern Flicker']
+    distractorPool: ['Northern Mockingbird', "Say's Phoebe", 'House Finch', 'House Sparrow', 'Song Sparrow', 'Mourning Dove', 'California Scrub-Jay', 'Greater Roadrunner', 'Northern Flicker']
   },
   {
     id: '2',
@@ -118,7 +118,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/64991481-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/64991491-1280px.jpg'
     ],
-    distractorPool: ['Black-headed Grosbeak', 'Hooded Oriole', 'American Goldfinch', 'Lesser Goldfinch', 'Yellow Warbler', 'Yellow-rumped Warbler', 'Orange-crowned Warbler', "Townssend's Warbler", 'Hermit Warbler', 'Common Yellowthroat', "Wilson's Warbler", 'American Robin']
+    distractorPool: ['Black-headed Grosbeak', 'Hooded Oriole', 'American Goldfinch', 'Lesser Goldfinch', 'Yellow Warbler', 'Yellow-rumped Warbler', 'Orange-crowned Warbler', "Townsend's Warbler", 'Hermit Warbler', 'Common Yellowthroat', "Wilson's Warbler", 'American Robin']
   },
   {
     id: '10',
@@ -209,7 +209,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/302371731-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/302371651-1280px.jpg'
     ],
-    distractorPool: ['Western Blluebird', 'Great Blue Heron', 'California Thrasher', 'California Towhee', 'California Gull']
+    distractorPool: ['Western Bluebird', 'Great Blue Heron', 'California Thrasher', 'California Towhee', 'California Gull']
   },
   {
     id: '17',
@@ -378,7 +378,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/65681201-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/301874771-1280px.jpg'
     ],
-    distractorPool: ["Say's Phoebe", 'Cliff Swalllow', 'Barn Swallow', 'European Starling', 'Bushtit', "Brewer's Blackbird"]
+    distractorPool: ["Say's Phoebe", 'Cliff Swallow', 'Barn Swallow', 'European Starling', 'Bushtit', "Brewer's Blackbird"]
   },
   {
     id: '30',
@@ -404,7 +404,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/65680381-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/301865791-1280px.jpg'
     ],
-    distractorPool: ["Cassin's Kingbird", "Say's Phoebe", 'Black Phoebe', 'Western Bluebird', 'Bushtit']
+    distractorPool: ['Orange-crowned Warbler', "Cassin's Kingbird", 'Bushtit', "Say's Phoebe"]
   },
   {
     id: '32',
@@ -417,7 +417,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/301882451-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/301882631-1280px.jpg'
     ],
-    distractorPool: ['Black Phoebe', "Cassin's Kingbird", 'Western Flycatcher', 'California Thrasher', 'California Towhee']
+    distractorPool: ['Song Sparrow', 'House Sparrow', 'House Finch', 'California Towhee', 'Mourning Dove', 'California Thrasher', 'Northern Mockingbird']
   },
   {
     id: '33',
@@ -428,7 +428,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/308555001-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/308553421-1280px.jpg'
     ],
-    distractorPool: ['Oak Titmouse', 'Blue-gray Gnatcatcher', 'Ruby-crowned Kinglet', 'House Wren', 'Bewick\'s Wren']
+    distractorPool: ['Song Sparrow', 'Mourning Dove', 'Western Flycatcher', 'Killdeer', 'California Towhee', 'House Finch', 'House Sparrow']
   },
   {
     id: '34',
@@ -441,7 +441,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/305874191-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/305878071-1280px.jpg'
     ],
-    distractorPool: ['House Finch', 'Song Sparrow', 'White-crowned Sparrow', 'California Towhee', 'Lesser Goldfinch']
+    distractorPool: ['Song Sparrow', 'House Finch', 'Cliff Swallow', 'Barn Swallow', 'Bushtit']
   },
   {
     id: '35',
@@ -454,7 +454,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/308800161-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/67447531-1280px.jpg'
     ],
-    distractorPool: ['Spotted Towhee', 'Hooded Oriole', 'Western Tanager', 'American Robin', 'Bullock\'s Oriole']
+    distractorPool: ['Hooded Oriole', 'Spotted Towhee', 'American Goldfinch', 'Lesser Goldfinch', 'California Scrub-Jay', 'American Robin']
   },
   {
     id: '36',
@@ -467,7 +467,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/319853501-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/319861731-1280px.jpg'
     ],
-    distractorPool: ['Red-shouldered Hawk', 'Cooper\'s Hawk', 'Turkey Vulture', 'Osprey', 'Swainson\'s Hawk']
+    distractorPool: ["Cooper's Hawk", 'Red-shouldered Hawk', 'White-tailed Kite', 'Osprey', 'Peregrine Falcon', 'American Kestrel', 'Turkey Vulture']
   },
   {
     id: '37',
@@ -480,7 +480,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/71533451-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/306107321-1280px.jpg'
     ],
-    distractorPool: ['Red-tailed Hawk', 'Cooper\'s Hawk', 'Sharp-shinned Hawk', 'Osprey', 'Northern Harrier']
+    distractorPool: ["Cooper's Hawk", 'Red-tailed Hawk', 'White-tailed Kite', 'Osprey', 'Peregrine Falcon', 'American Kestrel', 'Turkey Vulture']
   },
   {
     id: '38',
@@ -493,7 +493,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/305687791-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/60324861-1280px.jpg'
     ],
-    distractorPool: ['Sharp-shinned Hawk', 'Red-shouldered Hawk', 'Red-tailed Hawk', 'Peregrine Falcon', 'American Kestrel']
+    distractorPool: ['Red-tailed Hawk', 'Red-shouldered Hawk', 'White-tailed Kite', 'Osprey', 'American Kestrel', 'Peregrine Falcon', 'Turkey Vulture']
   },
   {
     id: '39',
@@ -506,7 +506,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/60320571-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/60320591-1280px.jpg'
     ],
-    distractorPool: ['Bald Eagle', 'Red-tailed Hawk', 'Turkey Vulture', 'Peregrine Falcon', 'Brown Pelican']
+    distractorPool: ["Cooper's Hawk", 'Red-tailed Hawk', 'White-tailed Kite', 'Red-shouldered Hawk', 'Peregrine Falcon', 'American Kestrel', 'Turkey Vulture']
   },
   {
     id: '40',
@@ -519,7 +519,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/305338531-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/70707601-1280px.jpg'
     ],
-    distractorPool: ['Northern Harrier', 'American Kestrel', 'Red-tailed Hawk', 'Cooper\'s Hawk', 'Peregrine Falcon']
+    distractorPool: ['Red-tailed Hawk', 'Red-shouldered Hawk', "Cooper's Hawk", 'Osprey', 'Peregrine Falcon', 'American Kestrel', 'Great Egret', 'American White Pelican', 'Western Gull']
   },
   {
     id: '41',
@@ -532,7 +532,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/304003321-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/304002391-1280px.jpg'
     ],
-    distractorPool: ['Anna\'s Hummingbird', 'Rufous Hummingbird', 'Black-chinned Hummingbird', 'Costa\'s Hummingbird', 'Calliope Hummingbird']
+    distractorPool: ["Anna's Hummingbird", 'Bushtit', 'Killdeer']
   },
   {
     id: '42',
@@ -545,7 +545,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/66120961-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/303891641-1280px.jpg'
     ],
-    distractorPool: ['Allen\'s Hummingbird', 'Costa\'s Hummingbird', 'Black-chinned Hummingbird', 'Rufous Hummingbird', 'Calliope Hummingbird']
+    distractorPool: ["Allen's Hummingbird", 'Bushtit', 'Killdeer']
   },
   {
     id: '43',
@@ -555,7 +555,7 @@ export const BIRD_LIST: Bird[] = [
     images: [
       'https://www.allaboutbirds.org/guide/assets/photo/60317261-1280px.jpg'
     ],
-    distractorPool: ['California Condor', 'Red-tailed Hawk', 'Common Raven', 'Osprey', 'Golden Eagle']
+    distractorPool: ['Red-tailed Hawk', 'Red-shouldered Hawk', "Brandt's Cormorant", 'Double-crested Cormorant', 'Osprey', 'American Kestrel', 'Peregrine Falcon', "Cooper's Hawk"]
   },
   {
     id: '44',
@@ -568,7 +568,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/60386941-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/60386901-1280px.jpg'
     ],
-    distractorPool: ['Rock Pigeon', 'Eurasian Collared-Dove', 'White-winged Dove', 'Band-tailed Pigeon', 'Inca Dove']
+    distractorPool: ['Eurasian Collared-Dove', 'Rock Pigeon', 'Bushtit', 'American Kestrel', 'California Quail']
   },
   {
     id: '45',
@@ -581,7 +581,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/308067801-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/308072341-1280px.jpg'
     ],
-    distractorPool: ['Mourning Dove', 'Eurasian Collared-Dove', 'Band-tailed Pigeon', 'White-winged Dove', 'Feral Pigeon']
+    distractorPool: ['Mourning Dove', 'Eurasian Collared-Dove', 'American Kestrel', 'Bushtit', 'California Quail']
   },
   {
     id: '46',
@@ -594,7 +594,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/308120421-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/66035111-1280px.jpg'
     ],
-    distractorPool: ['Mourning Dove', 'Rock Pigeon', 'White-winged Dove', 'Band-tailed Pigeon', 'Inca Dove']
+    distractorPool: ['Mourning Dove', 'Rock Pigeon', 'Bushtit', 'American Kestrel', 'California Quail']
   },
   {
     id: '47',
@@ -607,7 +607,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/308438211-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/60388691-1280px.jpg'
     ],
-    distractorPool: ['California Quail', 'Greater Sage-Grouse', 'Ring-necked Pheasant', 'Wild Turkey', 'California Thrasher']
+    distractorPool: ['Mourning Dove', 'Eurasian Collared-Dove', 'California Thrasher', 'Northern Mockingbird', 'California Towhee', 'California Quail']
   },
   {
     id: '48',
@@ -620,7 +620,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/302367281-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/302367271-1280px.jpg'
     ],
-    distractorPool: ['Merlin', 'Peregrine Falcon', 'Prairie Falcon', 'Cooper\'s Hawk', 'Sharp-shinned Hawk']
+    distractorPool: ["Cooper's Hawk", 'Red-tailed Hawk', 'White-tailed Kite', 'Osprey', 'Peregrine Falcon', 'Red-shouldered Hawk', 'Turkey Vulture']
   },
   {
     id: '49',
@@ -633,7 +633,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/60410441-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/303616551-1280px.jpg'
     ],
-    distractorPool: ['Prairie Falcon', 'Merlin', 'American Kestrel', 'Cooper\'s Hawk', 'Red-tailed Hawk']
+    distractorPool: ["Cooper's Hawk", 'Red-tailed Hawk', 'White-tailed Kite', 'Osprey', 'American Kestrel', 'Red-shouldered Hawk', 'Turkey Vulture']
   },
   {
     id: '50',
@@ -646,7 +646,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/296733591-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/65610051-1280px.jpg'
     ],
-    distractorPool: ['Mountain Quail', 'Gambel\'s Quail', 'Greater Roadrunner', 'Chukar', 'Ring-necked Pheasant']
+    distractorPool: ['Rock Pigeon', 'Eurasian Collared-Dove', 'Mourning Dove', 'Greater Roadrunner', 'American Wigeon']
   },
   {
     id: '51',
@@ -659,7 +659,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/297698571-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/297698611-1280px.jpg'
     ],
-    distractorPool: ['Downy Woodpecker', 'Hairy Woodpecker', 'Ladder-backed Woodpecker', 'Acorn Woodpecker', 'Northern Flicker']
+    distractorPool: ['Northern Flicker', 'Acorn Woodpecker', 'Downy Woodpecker']
   },
   {
     id: '52',
@@ -672,7 +672,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/60403251-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/310422201-1280px.jpg'
     ],
-    distractorPool: ['Acorn Woodpecker', 'Nuttall\'s Woodpecker', 'Downy Woodpecker', 'Red-breasted Sapsucker', 'American Kestrel']
+    distractorPool: ["Nuttall's Woodpecker", 'Acorn Woodpecker', 'Downy Woodpecker']
   },
   {
     id: '53',
@@ -685,7 +685,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/64992881-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/64992891-1280px.jpg'
     ],
-    distractorPool: ['Nuttall\'s Woodpecker', 'Northern Flicker', 'Downy Woodpecker', 'Lewis\'s Woodpecker', 'Hairy Woodpecker']
+    distractorPool: ['Northern Flicker', "Nuttall's Woodpecker", 'Downy Woodpecker']
   },
   {
     id: '54',
@@ -698,11 +698,11 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/60397931-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/60397951-1280px.jpg'
     ],
-    distractorPool: ['Hairy Woodpecker', 'Nuttall\'s Woodpecker', 'Ladder-backed Woodpecker', 'Acorn Woodpecker', 'Northern Flicker']
+    distractorPool: ['Northern Flicker', 'Acorn Woodpecker', "Nuttall's Woodpecker"]
   },
   {
     id: '55',
-    name: 'Barn Owl',
+    name: 'American Barn Owl',
     group: 'Tytonidae',
     order: 'Strigiformes',
     images: [
@@ -711,7 +711,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/297342421-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/63738021-1280px.jpg'
     ],
-    distractorPool: ['Great Horned Owl', 'Western Screech-Owl', 'Burrowing Owl', 'Short-eared Owl', 'Turkey Vulture']
+    distractorPool: ['Great Horned Owl', 'Greater Roadrunner', 'Great Egret', 'Barn Swallow']
   },
   {
     id: '56',
@@ -724,7 +724,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/63741561-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/63741591-1280px.jpg'
     ],
-    distractorPool: ['Barn Owl', 'Western Screech-Owl', 'Long-eared Owl', 'Burrowing Owl', 'Red-tailed Hawk']
+    distractorPool: ['American Barn Owl', 'Barn Swallow', 'Great Egret', 'Greater Roadrunner']
   },
   {
     id: '57',
@@ -737,7 +737,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/300196861-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/300200921-1280px.jpg'
     ],
-    distractorPool: ['Gadwall', 'American Wigeon', 'Northern Shoveler', 'Cinnamon Teal', 'Wood Duck']
+    distractorPool: ['Northern Shoveler', 'Redhead', 'Surf Scoter', 'Cinnamon Teal', 'Gadwall', 'Ruddy Duck', 'Bufflehead', 'American Wigeon', 'Ring-necked Duck', 'American Coot']
   },
   {
     id: '58',
@@ -750,7 +750,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/59953131-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/59953181-1280px.jpg'
     ],
-    distractorPool: ['Cackling Goose', 'Brant', 'Greater White-fronted Goose', 'Snow Goose', 'Mallard']
+    distractorPool: ['Swan Goose', 'Greater White-fronted Goose', 'Common Loon', 'Red-throated Loon', 'Western Grebe', 'Eared Grebe', 'Double-crested Cormorant', "Brandt's Cormorant"]
   },
   {
     id: '59',
@@ -763,7 +763,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/300125781-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/300125941-1280px.jpg'
     ],
-    distractorPool: ['Mallard', 'Gadwall', 'American Wigeon', 'Cinnamon Teal', 'Blue-winged Teal']
+    distractorPool: ['Mallard', 'Redhead', 'Surf Scoter', 'Cinnamon Teal', 'Gadwall', 'Ruddy Duck', 'Bufflehead', 'American Wigeon', 'Ring-necked Duck', 'American Coot']
   },
   {
     id: '60',
@@ -776,7 +776,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/301338901-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/301323811-1280px.jpg'
     ],
-    distractorPool: ['Canvasback', 'Ring-necked Duck', 'Lesser Scaup', 'Greater Scaup', 'Ruddy Duck']
+    distractorPool: ['Northern Shoveler', 'Mallard', 'Surf Scoter', 'Cinnamon Teal', 'Gadwall', 'Ruddy Duck', 'Bufflehead', 'American Wigeon', 'Ring-necked Duck', 'American Coot']
   },
   {
     id: '61',
@@ -789,7 +789,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/302037741-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/302037681-1280px.jpg'
     ],
-    distractorPool: ['Black Scoter', 'White-winged Scoter', 'Bufflehead', 'Common Goldeneye', 'Lesser Scaup']
+    distractorPool: ['Northern Shoveler', 'Redhead', 'Mallard', 'Cinnamon Teal', 'Gadwall', 'Ruddy Duck', 'Bufflehead', 'American Wigeon', 'Ring-necked Duck', 'American Coot']
   },
   {
     id: '62',
@@ -802,7 +802,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/299911301-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/60310511-1280px.jpg'
     ],
-    distractorPool: ['Blue-winged Teal', 'Green-winged Teal', 'Mallard', 'Northern Shoveler', 'Gadwall']
+    distractorPool: ['Northern Shoveler', 'Redhead', 'Surf Scoter', 'Mallard', 'Gadwall', 'Ruddy Duck', 'Bufflehead', 'American Wigeon', 'Ring-necked Duck', 'American Coot']
   },
   {
     id: '63',
@@ -815,7 +815,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/60015891-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/300135821-1280px.jpg'
     ],
-    distractorPool: ['Mallard', 'American Wigeon', 'Northern Shoveler', 'Cinnamon Teal', 'Northern Pintail']
+    distractorPool: ['Northern Shoveler', 'Redhead', 'Surf Scoter', 'Cinnamon Teal', 'Mallard', 'Ruddy Duck', 'Bufflehead', 'American Wigeon', 'Ring-necked Duck', 'American Coot']
   },
   {
     id: '64',
@@ -828,7 +828,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/63912481-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/161973071-1280px.jpg'
     ],
-    distractorPool: ['Bufflehead', 'Canvasback', 'Redhead', 'Mallard', 'American Coot']
+    distractorPool: ['Northern Shoveler', 'Redhead', 'Surf Scoter', 'Cinnamon Teal', 'Gadwall', 'Mallard', 'Bufflehead', 'American Wigeon', 'Ring-necked Duck', 'American Coot']
   },
   {
     id: '65',
@@ -841,7 +841,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/63905211-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/302053701-1280px.jpg'
     ],
-    distractorPool: ['Ruddy Duck', 'Common Goldeneye', 'Hooded Merganser', 'Ring-necked Duck', 'Lesser Scaup']
+    distractorPool: ['Northern Shoveler', 'Redhead', 'Surf Scoter', 'Cinnamon Teal', 'Gadwall', 'Ruddy Duck', 'Mallard', 'American Wigeon', 'Ring-necked Duck', 'American Coot']
   },
   {
     id: '66',
@@ -854,7 +854,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/60017921-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/300142261-1280px.jpg'
     ],
-    distractorPool: ['Mallard', 'Gadwall', 'Northern Shoveler', 'Cinnamon Teal', 'Eurasian Wigeon']
+    distractorPool: ['Northern Shoveler', 'Redhead', 'Surf Scoter', 'Cinnamon Teal', 'Gadwall', 'Ruddy Duck', 'Bufflehead', 'Mallard', 'Ring-necked Duck', 'American Coot']
   },
   {
     id: '67',
@@ -867,7 +867,7 @@ export const BIRD_LIST: Bird[] = [
       'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/157502401/320',
       'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/157502411/320'
     ],
-    distractorPool: ['Canada Goose', 'Snow Goose', 'Greater White-fronted Goose', 'Domestic Goose', 'Mallard']
+    distractorPool: ['Canada Goose', 'Greater White-fronted Goose', 'Common Loon', 'Red-throated Loon', 'Western Grebe', 'Eared Grebe', 'Double-crested Cormorant', "Brandt's Cormorant"]
   },
   {
     id: '68',
@@ -880,7 +880,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/59938241-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/59938291-1280px.jpg'
     ],
-    distractorPool: ['Canada Goose', 'Snow Goose', 'Cackling Goose', 'Ross\'s Goose', 'Mallard']
+    distractorPool: ['Swan Goose', 'Canada Goose', 'Common Loon', 'Red-throated Loon', 'Western Grebe', 'Eared Grebe', 'Double-crested Cormorant', "Brandt's Cormorant"]
   },
   {
     id: '69',
@@ -893,7 +893,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/301537281-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/63895231-1280px.jpg'
     ],
-    distractorPool: ['Lesser Scaup', 'Greater Scaup', 'Redhead', 'Canvasback', 'Bufflehead']
+    distractorPool: ['Northern Shoveler', 'Redhead', 'Surf Scoter', 'Cinnamon Teal', 'Gadwall', 'Ruddy Duck', 'Bufflehead', 'American Wigeon', 'Mallard', 'American Coot']
   },
   {
     id: '70',
@@ -906,7 +906,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/301221881-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/64809631-1280px.jpg'
     ],
-    distractorPool: ['Black-necked Stilt', 'American Avocet', 'Spotted Sandpiper', 'Greater Yellowlegs', 'Western Sandpiper']
+    distractorPool: ['California Scrub-Jay', 'Northern Mockingbird', 'Snowy Egret', 'White-faced Ibis', 'American Coot']
   },
   {
     id: '71',
@@ -919,7 +919,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/71316801-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/71316821-1280px.jpg'
     ],
-    distractorPool: ['California Gull', 'Ring-billed Gull', 'Heermann\'s Gull', 'Glaucous-winged Gull', 'Herring Gull']
+    distractorPool: ["Heermann's Gull", 'Ring-billed Gull', 'California Gull']
   },
   {
     id: '72',
@@ -932,7 +932,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/71312851-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/71312861-1280px.jpg'
     ],
-    distractorPool: ['Western Gull', 'California Gull', 'Ring-billed Gull', 'Laughing Gull', 'Franklin\'s Gull']
+    distractorPool: ['Western Gull', 'Ring-billed Gull', 'California Gull']
   },
   {
     id: '73',
@@ -945,7 +945,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/71316011-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/303369851-1280px.jpg'
     ],
-    distractorPool: ['California Gull', 'Western Gull', 'Heermann\'s Gull', 'Herring Gull', 'Mew Gull']
+    distractorPool: ["Heermann's Gull", 'Western Gull', 'California Gull']
   },
   {
     id: '74',
@@ -958,7 +958,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/303379871-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/303379251-1280px.jpg'
     ],
-    distractorPool: ['Western Gull', 'Ring-billed Gull', 'Heermann\'s Gull', 'Herring Gull', 'Glaucous-winged Gull']
+    distractorPool: ["Heermann's Gull", 'Ring-billed Gull', 'Western Gull']
   },
   {
     id: '75',
@@ -971,7 +971,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/71337161-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/71337181-1280px.jpg'
     ],
-    distractorPool: ['Common Tern', 'Caspian Tern', 'Elegant Tern', 'Royal Tern', 'Least Tern']
+    distractorPool: ['Royal Tern', 'Caspian Tern', 'Elegant Tern']
   },
   {
     id: '76',
@@ -984,7 +984,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/170459311-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/71427421-1280px.jpg'
     ],
-    distractorPool: ['Elegant Tern', 'Caspian Tern', 'Forster\'s Tern', 'Least Tern', 'Common Tern']
+    distractorPool: ["Forster's Tern", 'Caspian Tern', 'Elegant Tern']
   },
   {
     id: '77',
@@ -997,7 +997,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/308394531-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/71334351-1280px.jpg'
     ],
-    distractorPool: ['Royal Tern', 'Elegant Tern', 'Forster\'s Tern', 'Common Tern', 'Gull-billed Tern']
+    distractorPool: ['Royal Tern', "Forster's Tern", 'Elegant Tern']
   },
   {
     id: '78',
@@ -1010,7 +1010,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/308484621-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/308485631-1280px.jpg'
     ],
-    distractorPool: ['Royal Tern', 'Caspian Tern', 'Forster\'s Tern', 'Least Tern', 'Common Tern']
+    distractorPool: ['Royal Tern', 'Caspian Tern', "Forster's Tern"]
   },
   {
     id: '79',
@@ -1023,7 +1023,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/306752591-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/63916701-1280px.jpg'
     ],
-    distractorPool: ['Pacific Loon', 'Common Loon', 'Yellow-billed Loon', 'Western Grebe', 'Double-crested Cormorant']
+    distractorPool: ['Common Loon', 'Western Grebe', 'Eared Grebe', 'American Coot', 'Pied-billed Grebe', 'Double-crested Cormorant', "Brandt's Cormorant"]
   },
   {
     id: '80',
@@ -1036,7 +1036,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/63918071-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/63918091-1280px.jpg'
     ],
-    distractorPool: ['Pacific Loon', 'Red-throated Loon', 'Yellow-billed Loon', 'Western Grebe', 'Double-crested Cormorant']
+    distractorPool: ['Red-throated Loon', 'Western Grebe', 'Eared Grebe', 'American Coot', 'Pied-billed Grebe', 'Double-crested Cormorant', "Brandt's Cormorant"]
   },
   {
     id: '81',
@@ -1049,7 +1049,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/303193371-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/303193641-1280px.jpg'
     ],
-    distractorPool: ['Common Gallinule', 'Ruddy Duck', 'Mallard', 'Pied-billed Grebe', 'Double-crested Cormorant']
+    distractorPool: ['Common Gallinule', 'Mallard', 'Gadwall', 'Northern Shoveler', 'Cinnamon Teal', 'Ruddy Duck', 'Bufflehead', 'American Wigeon', 'Ring-necked Duck', 'Red-throated Loon', 'Common Loon', 'Western Grebe', 'Eared Grebe', 'Pied-billed Grebe', 'Double-crested Cormorant', "Brandt's Cormorant"]
   },
   {
     id: '82',
@@ -1062,7 +1062,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/304480271-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/70610221-1280px.jpg'
     ],
-    distractorPool: ['Snowy Egret', 'Great Blue Heron', 'Cattle Egret', 'White Ibis', 'Wood Stork']
+    distractorPool: ['Snowy Egret', 'Great Blue Heron', 'Green Heron', 'Black-crowned Night Heron', 'White-faced Ibis', 'American White Pelican', 'Brown Pelican']
   },
   {
     id: '83',
@@ -1075,7 +1075,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/70591171-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/304463921-1280px.jpg'
     ],
-    distractorPool: ['American White Pelican', 'Double-crested Cormorant', 'Western Gull', 'Osprey', 'Heermann\'s Gull']
+    distractorPool: ['American White Pelican', 'Double-crested Cormorant', "Brandt's Cormorant", 'Great Blue Heron', 'Great Egret', 'Snowy Egret', 'Green Heron', 'Black-crowned Night Heron', 'White-faced Ibis']
   },
   {
     id: '84',
@@ -1088,7 +1088,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/304988121-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/304986921-1280px.jpg'
     ],
-    distractorPool: ['Yellow-crowned Night-Heron', 'Green Heron', 'Great Blue Heron', 'American Bittern', 'Least Bittern']
+    distractorPool: ['Green Heron', 'Snowy Egret', 'Great Egret', 'Great Blue Heron', 'White-faced Ibis', 'American White Pelican', 'Brown Pelican']
   },
   {
     id: '85',
@@ -1101,7 +1101,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/304481821-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/70611051-1280px.jpg'
     ],
-    distractorPool: ['Great Egret', 'Cattle Egret', 'Little Blue Heron', 'White Ibis', 'Snowy Plover']
+    distractorPool: ['Great Egret', 'Great Blue Heron', 'Green Heron', 'Black-crowned Night Heron', 'White-faced Ibis', 'American White Pelican', 'Brown Pelican']
   },
   {
     id: '86',
@@ -1114,7 +1114,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/60314291-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/60314261-1280px.jpg'
     ],
-    distractorPool: ['Great Egret', 'Little Blue Heron', 'Tricolored Heron', 'Green Heron', 'Black-crowned Night-Heron']
+    distractorPool: ['Great Egret', 'Snowy Egret', 'Green Heron', 'Black-crowned Night Heron', 'White-faced Ibis', 'American White Pelican', 'Brown Pelican']
   },
   {
     id: '87',
@@ -1127,7 +1127,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/70691781-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/70691751-1280px.jpg'
     ],
-    distractorPool: ['Black-crowned Night-Heron', 'Little Blue Heron', 'Least Bittern', 'American Bittern', 'Great Blue Heron']
+    distractorPool: ['Black-crowned Night Heron', 'Snowy Egret', 'Great Egret', 'Great Blue Heron', 'White-faced Ibis', 'American White Pelican', 'Brown Pelican']
   },
   {
     id: '88',
@@ -1140,7 +1140,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/70695691-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/70695721-1280px.jpg'
     ],
-    distractorPool: ['Glossy Ibis', 'White Ibis', 'American Avocet', 'Black-necked Stilt', 'Long-billed Curlew']
+    distractorPool: ['Snowy Egret', 'Great Egret', 'Great Blue Heron', 'Green Heron', 'Black-crowned Night Heron', 'American White Pelican', 'Brown Pelican']
   },
   {
     id: '89',
@@ -1153,7 +1153,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/304461171-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/304461341-1280px.jpg'
     ],
-    distractorPool: ['Brown Pelican', 'Double-crested Cormorant', 'Trumpeter Swan', 'Snow Goose', 'Wood Stork']
+    distractorPool: ['Brown Pelican', 'Double-crested Cormorant', "Brandt's Cormorant", 'Great Blue Heron', 'Great Egret', 'Snowy Egret', 'Green Heron', 'Black-crowned Night Heron', 'White-faced Ibis']
   },
   {
     id: '90',
@@ -1166,7 +1166,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/65058091-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/305505061-1280px.jpg'
     ],
-    distractorPool: ['Pied-billed Grebe', 'Western Grebe', 'Horned Grebe', 'Ruddy Duck', 'Bufflehead']
+    distractorPool: ['Western Grebe', 'Pied-billed Grebe', 'Common Loon', 'Red-throated Loon', 'American Coot', 'Double-crested Cormorant', "Brandt's Cormorant"]
   },
   {
     id: '91',
@@ -1179,7 +1179,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/305510611-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/305510021-1280px.jpg'
     ],
-    distractorPool: ['Clark\'s Grebe', 'Eared Grebe', 'Pied-billed Grebe', 'Common Loon', 'Double-crested Cormorant']
+    distractorPool: ['Eared Grebe', 'Pied-billed Grebe', 'Common Loon', 'Red-throated Loon', 'American Coot', 'Double-crested Cormorant', "Brandt's Cormorant"]
   },
   {
     id: '92',
@@ -1192,7 +1192,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/304527041-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/304530361-1280px.jpg'
     ],
-    distractorPool: ['Eared Grebe', 'Western Grebe', 'Ruddy Duck', 'American Coot', 'Horned Grebe']
+    distractorPool: ['Eared Grebe', 'Western Grebe', 'Common Loon', 'Red-throated Loon', 'American Coot', 'Double-crested Cormorant', "Brandt's Cormorant"]
   },
   {
     id: '93',
@@ -1205,7 +1205,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/66027251-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/66027261-1280px.jpg'
     ],
-    distractorPool: ['Brandt\'s Cormorant', 'Pelagic Cormorant', 'Brown Pelican', 'Western Grebe', 'Common Loon']
+    distractorPool: ["Brandt's Cormorant", 'Brown Pelican', 'American White Pelican', 'Common Loon', 'Red-throated Loon', 'Western Grebe', 'Eared Grebe', 'Pied-billed Grebe']
   },
   {
     id: '94',
@@ -1218,6 +1218,6 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/66025531-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/304389661-1280px.jpg'
     ],
-    distractorPool: ['Double-crested Cormorant', 'Pelagic Cormorant', 'Brown Pelican', 'Western Gull', 'Common Loon']
+    distractorPool: ['Double-crested Cormorant', 'Brown Pelican', 'American White Pelican', 'Common Loon', 'Red-throated Loon', 'Western Grebe', 'Eared Grebe', 'Pied-billed Grebe']
   },
 ];

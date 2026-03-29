@@ -26,15 +26,20 @@ export function generateQuestion(allowedBirds: Bird[] = BIRD_LIST): Question {
 
   // 3. Find potential distractors
   let potentialDistractors: Bird[] = [];
+  const normalize = (s: string) => s.replace(/[’']/g, "'").toLowerCase().trim();
+  const normalizedPool = (correctBird.distractorPool || []).map(normalize);
 
-  // Use distractorPool if available
-  if (correctBird.distractorPool && correctBird.distractorPool.length > 0) {
-    potentialDistractors = BIRD_LIST.filter(b => 
-      correctBird.distractorPool.includes(b.name) && b.id !== correctBird.id
+  // 1. Try to get distractors from the FULL list that are in the distractorPool
+  // This ensures we always use the user's specified distractors if they exist.
+  if (normalizedPool.length > 0) {
+    const poolDistractors = BIRD_LIST.filter(b => 
+      normalizedPool.includes(normalize(b.name)) && b.id !== correctBird.id
     );
+    potentialDistractors = poolDistractors;
   }
 
-  // If we don't have enough from distractorPool, use group from allowed list
+  // 2. If we still need more (shouldn't happen based on user feedback, but good for safety),
+  // try to get distractors from the ALLOWED list that are in the same group
   if (potentialDistractors.length < 3) {
     const groupDistractors = allowedBirds.filter(b => 
       b.id !== correctBird.id && 
@@ -44,7 +49,7 @@ export function generateQuestion(allowedBirds: Bird[] = BIRD_LIST): Question {
     potentialDistractors = [...potentialDistractors, ...groupDistractors];
   }
 
-  // If we still don't have enough, backfill with random birds from the allowed list
+  // 3. If still not enough, backfill with random birds from the ALLOWED list
   if (potentialDistractors.length < 3) {
     const others = shuffle(allowedBirds.filter(b => 
       b.id !== correctBird.id && 
@@ -53,7 +58,8 @@ export function generateQuestion(allowedBirds: Bird[] = BIRD_LIST): Question {
     potentialDistractors = [...potentialDistractors, ...others];
   }
 
-  // If we STILL don't have enough (e.g., user selected < 4 birds), backfill from the full list
+  // 4. If we STILL don't have 3 (e.g. user selected < 4 birds and pool was small),
+  // pull from the full BIRD_LIST.
   if (potentialDistractors.length < 3) {
     const fullListOthers = shuffle(BIRD_LIST.filter(b => 
       b.id !== correctBird.id && 
