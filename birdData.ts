@@ -413,7 +413,7 @@ export const BIRD_LIST: Bird[] = [
     order: 'Passeriformes',
     images: [
       'https://www.allaboutbirds.org/guide/assets/photo/301881791-1280px.jpg',
-      'https://www.allaboutbirds.org/guide/assets/photo/301882411-1280px.jpg',
+      'https://media.audubon.org/nas_birdapi/says-phoebe_004_winter_california_andyreagochrissymcclarren_flickrcc-by-2.0_adult-worn-plumage.jpg?height=472&auto=webp&quality=90&fit=bounds&disable=upscale',
       'https://www.allaboutbirds.org/guide/assets/photo/301882451-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/301882631-1280px.jpg'
     ],
@@ -464,7 +464,7 @@ export const BIRD_LIST: Bird[] = [
     images: [
       'https://www.allaboutbirds.org/guide/assets/photo/319806651-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/60384771-1280px.jpg',
-      'https://www.allaboutbirds.org/guide/assets/photo/319853501-1280px.jpg',
+      'https://media.audubon.org/nas_birdapi_hero/h_apa_2016-a1_1919_1_red-tailed-hawk_christopher_ciccone_kk_adult.jpg?height=472&auto=webp&quality=90&fit=bounds&disable=upscale',
       'https://www.allaboutbirds.org/guide/assets/photo/319861731-1280px.jpg'
     ],
     distractorPool: ["Cooper's Hawk", 'Red-shouldered Hawk', 'White-tailed Kite', 'Osprey', 'Peregrine Falcon', 'American Kestrel', 'Turkey Vulture']
@@ -525,7 +525,7 @@ export const BIRD_LIST: Bird[] = [
     id: '41',
     name: 'Allen’s Hummingbird',
     group: 'Trochilidae',
-    order: 'Caprimulgiformes',
+    order: 'Apodiformes',
     images: [
       'https://www.allaboutbirds.org/guide/assets/photo/304001991-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/65775931-1280px.jpg',
@@ -538,7 +538,7 @@ export const BIRD_LIST: Bird[] = [
     id: '42',
     name: 'Anna’s Hummingbird',
     group: 'Trochilidae',
-    order: 'Caprimulgiformes',
+    order: 'Apodiformes',
     images: [
       'https://www.allaboutbirds.org/guide/assets/photo/303891031-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/303891421-1280px.jpg',
@@ -563,8 +563,8 @@ export const BIRD_LIST: Bird[] = [
     group: 'Columbidae',
     order: 'Columbiformes',
     images: [
-      'https://www.allaboutbirds.org/guide/assets/photo/60386921-1280px.jpg',
-      'https://www.allaboutbirds.org/guide/assets/photo/60386951-1280px.jpg',
+      'https://media.audubon.org/nas_birdapi/aud_gbbc-2016_mourning-dove_35427_kk_fl_photo-mark-eden_adult.jpg?height=472&auto=webp&quality=90&fit=bounds&disable=upscale',
+      'https://media.audubon.org/nas_birdapi_hero/h_aud_gbbc-2016_mourning-dove_34483_kk_me_photo-betsy-bass_adults.jpg?height=472&auto=webp&quality=90&fit=bounds&disable=upscale',
       'https://www.allaboutbirds.org/guide/assets/photo/60386941-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/60386901-1280px.jpg'
     ],
@@ -695,7 +695,7 @@ export const BIRD_LIST: Bird[] = [
     images: [
       'https://www.allaboutbirds.org/guide/assets/photo/60397941-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/60397891-1280px.jpg',
-      'https://www.allaboutbirds.org/guide/assets/photo/60397931-1280px.jpg',
+      'https://media.audubon.org/nas_birdapi/a1_5333_7_downy_woodpecker_tamima_itani_adult_male_and_juvenile.jpg?height=472&auto=webp&quality=90&fit=bounds&disable=upscale',
       'https://www.allaboutbirds.org/guide/assets/photo/60397951-1280px.jpg'
     ],
     distractorPool: ['Northern Flicker', 'Acorn Woodpecker', "Nuttall's Woodpecker"]
@@ -733,7 +733,7 @@ export const BIRD_LIST: Bird[] = [
     order: 'Anseriformes',
     images: [
       'https://www.allaboutbirds.org/guide/assets/photo/308743051-1280px.jpg',
-      'https://www.allaboutbirds.org/guide/assets/photo/300190601-1280px.jpg',
+      'https://media.audubon.org/nas_birdapi/a1_5962_2_mallard_robert_cook_breeding-adult-male.jpg?height=472&auto=webp&quality=90&fit=bounds&disable=upscale',
       'https://www.allaboutbirds.org/guide/assets/photo/300196861-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/300200921-1280px.jpg'
     ],
@@ -759,7 +759,7 @@ export const BIRD_LIST: Bird[] = [
     order: 'Anseriformes',
     images: [
       'https://www.allaboutbirds.org/guide/assets/photo/300124811-1280px.jpg',
-      'https://www.allaboutbirds.org/guide/assets/photo/60312551-1280px.jpg',
+      'https://media.audubon.org/nas_birdapi/a1_5268_2_northern-shoveler_marlin_gher_breeding-adult-male.jpg?height=472&auto=webp&quality=90&fit=bounds&disable=upscale',
       'https://www.allaboutbirds.org/guide/assets/photo/300125781-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/300125941-1280px.jpg'
     ],
@@ -772,7 +772,7 @@ export const BIRD_LIST: Bird[] = [
     order: 'Anseriformes',
     images: [
       'https://www.allaboutbirds.org/guide/assets/photo/301323281-1280px.jpg',
-      'https://www.allaboutbirds.org/guide/assets/photo/301323591-1280px.jpg',
+      'https://media.audubon.org/nas_birdapi_hero/h_apa_2016-a1_2073_5_redhead_bill_dix_kk_adult-female-and-breeding-adult-male.jpg?height=472&auto=webp&quality=90&fit=bounds&disable=upscale',
       'https://www.allaboutbirds.org/guide/assets/photo/301338901-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/301323811-1280px.jpg'
     ],
@@ -826,7 +826,7 @@ export const BIRD_LIST: Bird[] = [
       'https://www.allaboutbirds.org/guide/assets/photo/302124271-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/302126591-1280px.jpg',
       'https://www.allaboutbirds.org/guide/assets/photo/63912481-1280px.jpg',
-      'https://www.allaboutbirds.org/guide/assets/photo/161973071-1280px.jpg'
+      'https://media.audubon.org/nas_birdapi_hero/a1_5489_2_ruddy-duck_don_bland_breeding-adult-male.jpg?height=472&auto=webp&quality=90&fit=bounds&disable=upscale'
     ],
     distractorPool: ['Northern Shoveler', 'Redhead', 'Surf Scoter', 'Cinnamon Teal', 'Gadwall', 'Mallard', 'Bufflehead', 'American Wigeon', 'Ring-necked Duck', 'American Coot']
   },
